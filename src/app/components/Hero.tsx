@@ -30,10 +30,10 @@ export function Hero() {
       <motion.img
         src={groomImg}
         alt="Bride"
-        initial={{ opacity: 0, x: -120, y: 20 }}
+        initial={{ opacity: 0, x: -120 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
-        className="absolute left-0 bottom-0 h-full max-w-[45%] object-contain scale-x-[-1] opacity-90 z-0"
+        className="hidden md:block absolute left-0 bottom-0 h-full max-w-[60%] object-contain scale-x-[-1] opacity-90 z-0"
       />
 
       {/* 🤵 Groom - Right */}
@@ -43,12 +43,11 @@ export function Hero() {
         initial={{ opacity: 0, x: 120 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
-        className="absolute right-0 bottom-0 h-full max-w-[45%] object-contain opacity-90 z-0"
+        className="hidden md:block absolute right-0 bottom-0 h-full max-w-[45%] object-contain opacity-90 z-0"
       />
 
       {/* 🌟 Center Content */}
-      <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white">
-
+      <div className="hidden md:flex relative z-10 h-full flex-col items-center justify-center px-4 text-center text-white">
         {/* Bismillah */}
         <motion.div
           initial={{ opacity: 0, y: -40 }}
@@ -127,6 +126,96 @@ export function Hero() {
           </motion.div>
         </motion.div>
 
+      </div>
+      {/* 📱 MOBILE VIEW */}
+      <div className="md:hidden relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white">
+
+        {/* 👰 Bride (left) */}
+        <motion.img
+          src={groomImg}
+          alt="Bride"
+          initial={{ opacity: 0, x: -80 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className="
+      absolute right-25 top-25
+      h-[100%] 
+      max-w-[100%] 
+      object-contain 
+
+      opacity-70
+    "
+        />
+
+        {/* 🤵 Groom (right) */}
+        <motion.img
+          src={brideImg}
+          alt="Groom"
+          initial={{ opacity: 0, x: 80 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className="
+      absolute left-35 bottom-0 top-25
+      h-[100%] 
+      max-w-[80%] 
+      object-contain 
+      opacity-70
+    "
+        />
+
+        {/* 🌫️ Soft gradient (lighter than before) */}
+
+        {/* ✨ Content */}
+        <div className="relative z-10 flex flex-col items-center px-2 bottom-50 text-center text-white">
+
+          {/* Bismillah */}
+          <motion.div
+            initial={{ opacity: 0, y: -30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="mb-3"
+          >
+            <p className="text-base text-amber-300">
+              بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+            </p>
+            <p className="mt-1 text-[10px] text-gray-200">
+              In the name of Allah, the Most Gracious, the Most Merciful
+            </p>
+          </motion.div>
+
+          {/* 💎 Names */}
+          <motion.h1
+            initial={{ opacity: 0, scale: 0.85 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 0.3 }}
+            className="text-2xl leading-tight"
+            style={{ fontFamily: 'Great Vibes, cursive' }}
+          >
+            Abdul Rahman <span className="text-amber-300">&</span> Karishma
+          </motion.h1>
+
+          {/* ✨ Ceremony */}
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.8 }}
+            className="mt-2 text-base"
+            style={{ fontFamily: 'Playfair Display, serif' }}
+          >
+            Nikkah Ceremony
+          </motion.p>
+
+          {/* 💌 Subtitle */}
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.2 }}
+            className="mt-1 text-xs text-gray-200"
+          >
+            Join us in celebrating our special day
+          </motion.p>
+
+        </div>
       </div>
     </section>
   );
