@@ -138,7 +138,7 @@ export function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
           className="
-      absolute right-25 top-25
+      absolute right-25 top-48
       h-[100%] 
       max-w-[100%] 
       object-contain 
@@ -155,7 +155,7 @@ export function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
           className="
-      absolute left-35 bottom-0 top-25
+      absolute left-35 bottom-0 top-45
       h-[100%] 
       max-w-[80%] 
       object-contain 
@@ -175,10 +175,10 @@ export function Hero() {
             transition={{ duration: 1 }}
             className="mb-3"
           >
-            <p className="text-base text-amber-300">
+            <p className="text-2xl text-amber-300 ">
               بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
             </p>
-            <p className="mt-1 text-[10px] text-gray-200">
+            <p className="mt-1 text-[15px] text-gray-200">
               In the name of Allah, the Most Gracious, the Most Merciful
             </p>
           </motion.div>
@@ -188,7 +188,7 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.85 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="text-2xl leading-tight"
+            className="text-4xl leading-tight"
             style={{ fontFamily: 'Great Vibes, cursive' }}
           >
             Abdul Rahman <span className="text-amber-300">&</span> Karishma
@@ -199,7 +199,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
-            className="mt-2 text-base"
+            className="mt-2 text-2xl"
             style={{ fontFamily: 'Playfair Display, serif' }}
           >
             Nikkah Ceremony
