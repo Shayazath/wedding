@@ -52,15 +52,16 @@ export function Footer() {
           className="mb-12 flex justify-center gap-6"
         >
           {[
-            { icon: Instagram, color: 'from-purple-500 to-pink-500' },
-            { icon: Facebook, color: 'from-blue-600 to-blue-400' },
-            { icon: Mail, color: 'from-amber-600 to-orange-500' },
+            { icon: Instagram, color: 'from-purple-500 to-pink-500',link: "https://www.instagram.com/_shayaz_/" },
+            { icon: Facebook, color: 'from-blue-600 to-blue-400', link: "https://www.facebook.com/shayazath.khan/" },
+            { icon: Mail, color: 'from-amber-600 to-orange-500', link: "mailto:shayazathkhan@gmail.com" },
           ].map((item, index) => {
             const Icon = item.icon;
             return (
               <motion.a
                 key={index}
-                href="#"
+                href={item.link}
+                target='_blank'
                 whileHover={{ scale: 1.2, rotate: 360 }}
                 whileTap={{ scale: 0.9 }}
                 className={`rounded-full bg-gradient-to-br ${item.color} p-4 shadow-xl transition-all hover:shadow-2xl`}

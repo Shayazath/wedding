@@ -14,7 +14,6 @@ export default function App() {
       <Hero />
       <DateReveal />
       <BrideGroom />
-      <OurStory />
       <Events />
       <Gallery />
       <RSVP />

@@ -2,15 +2,34 @@ import { motion } from 'motion/react';
 import { Heart } from 'lucide-react';
 import mehndi from '../../images/mehndi.jpeg';
 import couple2 from '../../images/couple2.png';
+import hands from '../../images/hands.png';
+import gal from '../../images/gal.jpeg';
+import gal2 from '../../images/gal2.jpeg';
+import gal3 from '../../images/gal3.jpeg';
+import gal4 from '../../images/gal4.png';
+
 
 
 const images = [
   mehndi,
+  hands,
+  gal4,
   couple2,
-  "https://images.unsplash.com/photo-1660946214570-f3b89e4eaed3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJc2xhbWljJTIwd2VkZGluZyUyMGRlY29yYXRpb24lMjBmbG93ZXJzfGVufDF8fHx8MTc3NDYxNDkwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-  "https://images.unsplash.com/photo-1710498689566-868b93f934c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjB3ZWRkaW5nJTIwbWFuZGFwJTIwZmxvcmFsfGVufDF8fHx8MTc3NDYxNDkwOHww&ixlib=rb-4.1.0&q=80&w=1080",
-  "https://images.unsplash.com/photo-1762162089047-97e09435984d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWhlbmRpJTIwaGFuZHMlMjBoZW5uYSUyMGRlc2lnbnxlbnwxfHx8fDE3NzQ2MTQ5MDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+  gal2,
+  gal3
 ];
+const lines = [
+  "The Mehndi that reminds me always him",
+  "The Hands I never wanna let go",
+  "The Mehndi that reminds me always him",
+  "The day It got official, the day we said yes to forever",
+  "Soo far, we have created so many memories, can't wait for more",
+  "Proposal day? we celebrate everyday"
+];
+  // "https://images.unsplash.com/photo-1660946214570-f3b89e4eaed3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJc2xhbWljJTIwd2VkZGluZyUyMGRlY29yYXRpb24lMjBmbG93ZXJzfGVufDF8fHx8MTc3NDYxNDkwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+  // "https://images.unsplash.com/photo-1710498689566-868b93f934c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjB3ZWRkaW5nJTIwbWFuZGFwJTIwZmxvcmFsfGVufDF8fHx8MTc3NDYxNDkwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+  // "https://images.unsplash.com/photo-1762162089047-97e09435984d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWhlbmRpJTIwaGFuZHMlMjBoZW5uYSUyMGRlc2lnbnxlbnwxfHx8fDE3NzQ2MTQ5MDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+// ];
 
 export function Gallery() {
   return (
@@ -62,13 +81,7 @@ export function Gallery() {
                 whileHover={{ opacity: 1 }}
                 className="absolute inset-0 flex items-center justify-center bg-black/50 backdrop-blur-sm"
               >
-                <motion.div
-                  initial={{ scale: 0 }}
-                  whileHover={{ scale: 1 }}
-                  transition={{ duration: 0.3 }}
-                >
-                  <Heart className="h-12 w-12 fill-white text-white" />
-                </motion.div>
+                <p className="text-center text-white text-lg px-4">{lines[index]}</p>
               </motion.div>
 
               {/* Decorative corner */}

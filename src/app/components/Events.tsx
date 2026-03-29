@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Calendar, MapPin, Clock, Music, Utensils, Camera } from 'lucide-react';
 import hall from '../../images/hall.webp';
 import couple from '../../images/couple.png';
+import mehndi from '../../images/mehndi.jpeg';
 
 interface Event {
   name: string;
@@ -17,18 +18,18 @@ interface Event {
 const events: Event[] = [
   {
     name: "Mehendi Ceremony",
-    date: "Thursday, June 06, 2026",
-    time: "4:00 PM - 8:00 PM",
+    date: "Saturday, June 06, 2026",
+    time: "08:00 PM - 11:00 PM",
     venue: "Vani Mahal, Chennai-TN",
     description: "Join us for an evening of henna art, music, and celebration as we adorn the bride's hands with intricate designs.",
     icon: Calendar,
     color: "from-emerald-500 to-teal-500",
-    image: "https://images.unsplash.com/photo-1762162089047-97e09435984d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWhlbmRpJTIwaGFuZHMlMjBoZW5uYSUyMGRlc2lnbnxlbnwxfHx8fDE3NzQ2MTQ5MDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    image: mehndi
   },
   {
     name: "Nikkah Ceremony",
-    date: "Friday, June 07, 2026",
-    time: "6:00 PM - 7:00 PM",
+    date: "Sunday, June 07, 2026",
+    time: "11:00 AM - 12:00 PM",
     venue: "Vani Mahal, Chennai-TN",
     description: "The sacred Nikkah ceremony where we will take our vows in the presence of our loved ones and seek Allah's blessings.",
     icon: Music,
@@ -37,9 +38,9 @@ const events: Event[] = [
   },
   {
     name: "Walima Reception",
-    date: "Friday, June 09, 2026",
-    time: "8:00 PM - 11:00 PM",
-    venue: "The Royal Gardens, Mumbai",
+    date: "Tuesday, June 09, 2026",
+    time: "11:00 AM - 01:00 PM",
+    venue: "Ansari Mahal, Pammal, Chennai-TN",
     description: "Celebrate with us at the Walima reception with dinner, music, and dancing. A night to remember!",
     icon: Utensils,
     color: "from-amber-500 to-orange-500",

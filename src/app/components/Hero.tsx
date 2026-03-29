@@ -3,7 +3,7 @@ import { ChevronDown } from 'lucide-react';
 import '@fontsource/playfair-display';
 import '@fontsource/great-vibes';
 
-import brideImg from '../../images/karimaa.png';
+import brideImg from '../../images/cartookari.png';
 import groomImg from '../../images/rahmann.png';
 import vid from '../../video/vid.mp4';
 
