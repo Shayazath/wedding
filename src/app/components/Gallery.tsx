@@ -21,7 +21,7 @@ const images = [
 const lines = [
   "The Mehndi that reminds me always him",
   "The Hands I never wanna let go",
-  "The Mehndi that reminds me always him",
+  "Love is in the air, and it's all because of him",
   "The day It got official, the day we said yes to forever",
   "Soo far, we have created so many memories, can't wait for more",
   "Proposal day? we celebrate everyday"

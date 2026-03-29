@@ -114,7 +114,7 @@ export function DateReveal() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-600">Time</p>
-                        <p className="text-xl font-semibold text-gray-800">10:00 AM onwards</p>
+                        <p className="text-xl font-semibold text-gray-800">11:00 AM onwards</p>
                       </div>
                     </motion.div>
 
