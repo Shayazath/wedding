@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Heart } from 'lucide-react';
-import bridee from '../../images/kari2.jpeg';
+import bridee from '../../images/kar.jpeg';
 import groomm from '../../images/rahman3.png';
 
 interface Person {
@@ -16,7 +16,7 @@ const bride: Person = {
   role: "The Bride",
   description: "A kind soul with a heart full of love, Karishma brings light and joy to everyone around her. Her grace and compassion make her truly special.",
   image: bridee,
-  parents: "Daughter of Mr. & Mrs. Rahamath Khan"
+  parents: "Daughter of Rahamath Khan & Meharunissa"
 };
 
 const groom: Person = {
@@ -24,7 +24,7 @@ const groom: Person = {
   role: "The Groom",
   description: "With strength and dedication, Rahman is a man of integrity and honor. His devotion and kindness make him the perfect life partner.",
   image: groomm,
-  parents: "Son of Mr. & Mrs. Khalid Rahman"
+  parents: "Son of Vajith basha & Sajitha begum"
 };
 
 function PersonCard({ person, reverse = false }: { person: Person; reverse?: boolean }) {

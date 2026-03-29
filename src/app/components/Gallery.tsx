@@ -1,10 +1,12 @@
 import { motion } from 'motion/react';
 import { Heart } from 'lucide-react';
+import mehndi from '../../images/mehndi.jpeg';
+import couple2 from '../../images/couple2.png';
+
 
 const images = [
-  "https://images.unsplash.com/photo-1644337111604-aa1816b542a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBicmlkZSUyMGdyb29tJTIwd2VkZGluZyUyMG5pa2thaHxlbnwxfHx8fDE3NzQ2MTQ5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "https://images.unsplash.com/photo-1737515045459-365999ac9da0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBNdXNsaW0lMjBicmlkZSUyMGVsZWdhbnQlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzQ2MTQ5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "https://images.unsplash.com/photo-1769500810743-5e5dd4fd5848?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBncm9vbSUyMHNoZXJ3YW5pJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzc0NjE0OTA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  mehndi,
+  couple2,
   "https://images.unsplash.com/photo-1660946214570-f3b89e4eaed3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJc2xhbWljJTIwd2VkZGluZyUyMGRlY29yYXRpb24lMjBmbG93ZXJzfGVufDF8fHx8MTc3NDYxNDkwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
   "https://images.unsplash.com/photo-1710498689566-868b93f934c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjB3ZWRkaW5nJTIwbWFuZGFwJTIwZmxvcmFsfGVufDF8fHx8MTc3NDYxNDkwOHww&ixlib=rb-4.1.0&q=80&w=1080",
   "https://images.unsplash.com/photo-1762162089047-97e09435984d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWhlbmRpJTIwaGFuZHMlMjBoZW5uYSUyMGRlc2lnbnxlbnwxfHx8fDE3NzQ2MTQ5MDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
