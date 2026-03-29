@@ -41,7 +41,7 @@ const events: Event[] = [
     date: "Tuesday, June 09, 2026",
     time: "11:00 AM - 01:00 PM",
     venue: "Ansari Mahal, Pammal, Chennai-TN",
-    description: "Celebrate with us at the Walima reception with a delightful dinner and joyful company. An evening to cherish!",
+    description: "Celebrate with us at the Walima reception with a delightful lunch and joyful company. An evening to cherish!",
     icon: Utensils,
     color: "from-amber-500 to-orange-500",
     image: "https://images.unsplash.com/photo-1710498689566-868b93f934c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjB3ZWRkaW5nJTIwbWFuZGFwJTIwZmxvcmFsfGVufDF8fHx8MTc3NDYxNDkwOHww&ixlib=rb-4.1.0&q=80&w=1080"
