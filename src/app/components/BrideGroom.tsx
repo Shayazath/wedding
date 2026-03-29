@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Heart } from 'lucide-react';
 import bridee from '../../images/kar.jpeg';
-import groomm from '../../images/rahman3.png';
+import groomm from '../../images/rahman6.jpeg';
 
 interface Person {
   name: string;
