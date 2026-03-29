@@ -40,8 +40,8 @@ export function Footer() {
             <Heart className="h-16 w-16 fill-rose-500 text-rose-500" />
           </motion.div>
           
-          <h2 className="mb-4 font-serif text-4xl text-white">Ayesha & Arman</h2>
-          <p className="text-lg text-gray-400">June 15, 2026</p>
+          <h2 className="mb-4 font-serif text-4xl text-white">Abdul Rahman & Karishma</h2>
+          <p className="text-lg text-gray-400">June 07, 2026</p>
         </div>
 
         {/* Social links */}
@@ -95,7 +95,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-sm text-gray-400">
-          <p>Created with love for Ayesha & Arman's Nikkah</p>
+          <p>Created with love for Abdul Rahman & Karishma's Nikkah</p>
           <p className="mt-2">© 2026 All rights reserved</p>
         </div>
 

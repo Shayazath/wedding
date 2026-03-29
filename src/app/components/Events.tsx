@@ -17,9 +17,9 @@ interface Event {
 const events: Event[] = [
   {
     name: "Mehendi Ceremony",
-    date: "Thursday, June 14, 2026",
+    date: "Thursday, June 06, 2026",
     time: "4:00 PM - 8:00 PM",
-    venue: "Bride's Residence",
+    venue: "Vani Mahal, Chennai-TN",
     description: "Join us for an evening of henna art, music, and celebration as we adorn the bride's hands with intricate designs.",
     icon: Calendar,
     color: "from-emerald-500 to-teal-500",
@@ -27,9 +27,9 @@ const events: Event[] = [
   },
   {
     name: "Nikkah Ceremony",
-    date: "Friday, June 15, 2026",
+    date: "Friday, June 07, 2026",
     time: "6:00 PM - 7:00 PM",
-    venue: "The Royal Gardens, Mumbai",
+    venue: "Vani Mahal, Chennai-TN",
     description: "The sacred Nikkah ceremony where we will take our vows in the presence of our loved ones and seek Allah's blessings.",
     icon: Music,
     color: "from-rose-500 to-pink-500",
@@ -37,7 +37,7 @@ const events: Event[] = [
   },
   {
     name: "Walima Reception",
-    date: "Friday, June 15, 2026",
+    date: "Friday, June 09, 2026",
     time: "8:00 PM - 11:00 PM",
     venue: "The Royal Gardens, Mumbai",
     description: "Celebrate with us at the Walima reception with dinner, music, and dancing. A night to remember!",
